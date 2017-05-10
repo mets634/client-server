@@ -1,5 +1,7 @@
 #include "network.h"
 
+// test
+
 void init_addr(sockaddr_in* service, const char* ip, const unsigned int port)
 {
 	service->sin_family = AF_INET;  // ipv4
